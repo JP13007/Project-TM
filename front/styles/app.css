@@ -1,0 +1,41 @@
+
+/* Header Styling */
+.header {
+    background-color: #f0f0f0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.task-count {
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    margin-right: 5px;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}

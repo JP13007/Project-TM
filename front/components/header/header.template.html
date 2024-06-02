@@ -1,0 +1,22 @@
+<div class="header" ng-controller="HeaderController"> <div class="user-profile">
+    <img src="user-profile.jpg" alt="User Profile">
+
+    <h2>Hello, {{user.name}}</h2>
+    <p>{{user.designation}}</p>
+</div>
+    <p class="task-count">You've got {{taskCount}} today</p>
+    <div class="search-bar">
+        <input type="text" ng-model="searchTerm" placeholder="Search tasks..." ng-change="searchTasks()">
+        <button>
+            <img src="search.jpg" alt="Search Icon">
+        </button>
+    </div>
+    <div class="icons">
+        <button>
+            <img src="add_1.png" alt="Add Icon">
+        </button>
+        <button>
+            <img src="profile_1.png" alt="Profile Icon">
+        </button>
+    </div>
+</div>

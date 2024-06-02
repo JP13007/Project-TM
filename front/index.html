@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="taskApp">
+<head>
+    <title>Task Management App</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="components/header/header.controller.js"></script>
+    <script src="components/sidebar/sidebar.controller.js"></script>
+    <script src="components/task-list/task-list.controller.js"></script>
+    </head>
+<body>
+    <div id="app-container">
+        <app-header></app-header>
+        <app-sidebar></app-sidebar>
+        <div id="main-content">
+                <app-task-list></app-task-list>
+        </div>
+    </div> 
+</body>
+</html>
